@@ -271,7 +271,7 @@
 }
 
 - (void) reloadData {
-    NSUInteger visiblePages = ceilf(self.frame.size.width/self.pageSize.width);
+    NSUInteger visiblePages = ceilf(self.frame.size.width/self.pageSize.width) + 1;
 
     // We need to check to see if self.frame.size.width is evenly divisible
     // by the pageSize width. If true then we want one more visible
