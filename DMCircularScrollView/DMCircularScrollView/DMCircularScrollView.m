@@ -66,8 +66,8 @@
             scrollView.layer.borderWidth = 2;
         }
         
-        scrollView.backgroundColor = [UIColor blueColor];
-        self.backgroundColor = [UIColor cyanColor];
+        scrollView.backgroundColor = [UIColor clearColor];
+        self.backgroundColor = [UIColor clearColor];
         
         self.pageWidth = 50;
         self.currentPageIndex = 0;
