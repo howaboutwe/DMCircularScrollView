@@ -59,6 +59,7 @@
         scrollView.clipsToBounds = NO;
         scrollView.showsHorizontalScrollIndicator = NO;
         scrollView.delegate = self;
+        scrollView.scrollsToTop = NO;
         
         if (self.displayBorder)
         {
